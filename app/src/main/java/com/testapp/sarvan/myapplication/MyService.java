@@ -36,7 +36,7 @@ public class MyService extends Service {
         // TODO: Return the communication channel to the service.
         System.out.println("onBind called");
         addResultValues();
-        System.out.println("resultList: " + resultList);
+        System.out.println("result List: " + resultList);
         return binder;
     }
 
